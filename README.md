@@ -42,7 +42,7 @@ NOTE: remember the package.json shows all the required modules to correctly run 
 
 ## API
 
-#####logger.info(message, request)
+##### logger.info(message, request)
 
     our logging function take two parameters, one message string which we can glean more information from
     and the request object from an http request for example
