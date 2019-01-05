@@ -1,0 +1,20 @@
+{
+  "name": "kudosol",
+  "version": "1.0.0",
+  "description": "a node module for logging on all requests",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Steven Muller",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.16.4",
+    "express-request-id": "^1.4.1",
+    "graceful-fs": "^4.1.15",
+    "os": "^0.1.1",
+    "uuid": "^3.3.2"
+  }
+}
