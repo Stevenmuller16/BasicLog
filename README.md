@@ -26,6 +26,8 @@ And then run the corresponding logging function to log all `requests`:
 
 ---- The sample project serves as a test bench for the logger because of the simplicity of the module
 
+NOTE: remember the package.json shows all the required modules to correctly run the demo app
+
 ## Accessing the log files
 
  the logs are written into specific files instead of the standard stdout/stderr and transports for persistance and ease of navigating the logs by writing them to json files
@@ -48,7 +50,6 @@ logger.info(message, request)
     router.get('/', function(req, res) {
     logger.info("this is our message", req);
     res.send('pageToServe');
-    });
-```
+    });```
 
 
